@@ -57,7 +57,7 @@ for service in angkutan:
             
 df_all = pd.concat(hasil, ignore_index=True)
 df_pkk = df_all[
-  ["nomor_pkk", "nama_kapal", "pelabuhan_kode", "bulan"]
+  ["nomor_pkk", "nama_kapal", "pelabuhan_kode", "bulan", "gt"]
 ].copy()
 
 

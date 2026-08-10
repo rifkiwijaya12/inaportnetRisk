@@ -19,6 +19,7 @@ df_join['hour'] = df_join['submission'].dt.hour
 
 
 #subset data out of scope
+df_join = df_join[df_join['year'] != 2022]
 df_join = df_join[df_join['year'] != 2023]
 df_join = df_join[df_join['year'] != 2024]
 df_join = df_join[df_join['year'] != 2026]
