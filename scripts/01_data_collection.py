@@ -128,5 +128,3 @@ df_join = df_join.rename(columns=rename_cols)[
 ]
 
 df_join.head()
-
-
